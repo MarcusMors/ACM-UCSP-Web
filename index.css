@@ -1,3 +1,8 @@
+/* red #7B2530*/
+/* blue #1C3F69*/
+/* white #FFFFFF*/
+/* background */
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -16,16 +21,69 @@ body {
 	align-items: center;
 	height: 50px;
 }
+.pageSection {
+	margin: 3px;
+	padding: 10px 3px 10px 3px;
+	border: 0px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-color: #1c3f69;
+	border-style: solid;
+}
+
+.pageSection:hover {
+	border-color: #3f89e4;
+	/* border: 3px; */
+}
+
 .content {
 	outline: 1px solid blue;
 }
 .main {
 	outline: 1px solid lime;
 }
-.sect {
-	margin-top: 10px red;
-	margin-buttom: 10px red;
+.home_logo {
+	width: 20%;
+	height: auto;
 }
+.aboutUS {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.aboutUS_text {
+	font-size: 12px;
+	max-width: 40%;
+	height: auto;
+	margin: 10px;
+	border: 3px;
+	border-color: #1c3f69;
+	border-style: solid;
+}
+.ourTeam {
+	width: 100%;
+	height: auto;
+}
+.ourTeam_Container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.ourTeam_reel > picture {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.ourTeam_example {
+	max-width: 80%;
+	height: auto;
+}
+
 .footer {
 	outline: 1px solid salmon;
 	margin-top: auto;
